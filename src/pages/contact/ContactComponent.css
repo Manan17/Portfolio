@@ -7,6 +7,11 @@
   margin-right: 5%;
 }
 
+.img-animated {
+  border-radius: 1000px;
+  width: 500px;
+}
+
 .contact-heading-div {
   display: flex;
 }

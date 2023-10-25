@@ -50,6 +50,13 @@
   font-family: "Google Sans Medium";
 }
 
+.greeting-text-p-2 {
+  font-size: 30px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;

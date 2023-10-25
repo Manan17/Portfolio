@@ -1,0 +1,32 @@
+.achievements-main {
+  width: 100vw;
+}
+
+.achievement_inner {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.achievement_card {
+  width: 30vw;
+  background-color: white;
+  box-shadow: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+
+.achievement_card_2 {
+  padding: 20px;
+}
+
+.achievement_img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+.achievement_title {
+  line-height: 1.2;
+}

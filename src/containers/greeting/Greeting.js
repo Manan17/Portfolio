@@ -23,7 +23,7 @@ export default function Greeting(props) {
                 </h2>
               )}
               <p
-                className="greeting-text-p subTitle"
+                className="greeting-text-p-2 subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {greeting.subTitle}

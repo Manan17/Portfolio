@@ -1,20 +1,12 @@
 import React from "react";
 import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
-
 class SoftwareSkill extends React.Component {
   render() {
     return (
       <div>
         <div className="software-skills-main-div">
           <ul className="dev-icons">
-            {/* {skillsSection.softwareSkills.map(skills => {
-            return (
-              <li className="software-skill-inline" name={skills.skillName}>
-                <i className={skills.fontAwesomeClassname}></i>
-              </li>
-            );
-          })} */}
             {this.props.logos.map((logo) => {
               return (
                 <OverlayTrigger
@@ -39,7 +31,7 @@ class SoftwareSkill extends React.Component {
                       <img
                         className="skill-image"
                         style={logo.style}
-                        src={`${process.env.PUBLIC_URL}/skills/${logo.imageSrc}`}
+                        src={""}
                         alt={logo.skillName}
                       />
                     )}
